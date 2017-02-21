@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "James Meakin"
-baseurl = "http://meakin.nl"
+baseurl = "https://jmeakin.github.io/meakin.nl/"
 
 [Params]
   Author = "James Meakin"
