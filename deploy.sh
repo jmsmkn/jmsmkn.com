@@ -21,7 +21,7 @@ git clone "https://$GH_REPO" --branch gh-pages public
 rm -rf public/*
 
 # Build the project.
-hugo -t hugo-cactus-theme 
+hugo
 
 cd public
 git add --all

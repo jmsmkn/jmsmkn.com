@@ -1,6 +1,24 @@
 languageCode = "en-us"
 title = "James Meakin"
 baseurl = "https://jmeakin.github.io/meakin.nl/"
+theme = "hugo-cactus-theme"
+disqusShortname = "meakin-nl"
 
 [Params]
-  Author = "James Meakin"
+  name = "James Meakin"
+  description = "description goes here"
+  bio = "Research Software Engineer"
+  twitter = "DrJamesMeakin"
+  enableRSS = true
+
+  # Sharing options and author information in posts
+	aboutAuthor = "Research Software Engineer at Radboud University Medical Center."
+	tweet = ""
+	share = ""
+
+  iconFont = "font-awesome"
+
+[social]
+  twitter = "https://twitter.com/DrJamesMeakin"
+  github = "https://github.com/jmeakin"
+  linkedin = "//linkedin.com/in/you"
