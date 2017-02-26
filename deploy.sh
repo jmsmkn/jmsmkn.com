@@ -15,10 +15,8 @@ git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
 cd ..
 rm -rf public
 mkdir public
-git worktree prune
-rm -rf .git/worktrees/public/
 
-git worktree add -B gh-pages public origin/gh-pages
+git clone .git --branch gh-pages public
 
 # Remove the existing files
 rm -rf public/*
