@@ -14,9 +14,8 @@ git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
 # Remove the old publications
 cd ..
 rm -rf public
-mkdir public
 
-git clone .git --branch gh-pages public
+git clone "https://$GH_REPO" --branch gh-pages public
 
 # Remove the existing files
 rm -rf public/*
