@@ -12,16 +12,13 @@ cd ${REPO}/themes
 git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
 
 cd ..
-mkdir public
-cd public
-git clone "https://$GH_REPO"
-git checkout gh-pages
+git worktree add -B gh-pages public origin/gh-pages
 
 # Build the project.
-cd ..
 hugo -t hugo-cactus-theme 
 
 cd public
 git add -A :/
 git commit -a -m "via travis -- for $MSG"
+cd ..
 git push "https://${GH_TOKEN}@${GH_REPO}" gh-pages > /dev/null 2>&1
