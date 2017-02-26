@@ -11,14 +11,22 @@ git clone "https://$GH_REPO"
 cd ${REPO}/themes
 git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
 
+# Remove the old publications
 cd ..
+rm -rf public
+mkdir public
+git worktree prune
+rm -rf .git/worktrees/public/
+
 git worktree add -B gh-pages public origin/gh-pages
+
+# Remove the existing files
+rm -rf public/*
 
 # Build the project.
 hugo -t hugo-cactus-theme 
 
 cd public
-git add -A :/
+git add --all
 git commit -a -m "via travis -- for $MSG"
-cd ..
 git push "https://${GH_TOKEN}@${GH_REPO}" gh-pages > /dev/null 2>&1
