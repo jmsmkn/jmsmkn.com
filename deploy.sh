@@ -12,6 +12,10 @@ git clone "https://$GH_REPO"
 cd ${REPO}/themes
 git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
 
+# Remove the avatars
+rm themes/hugo-cactus-theme/static/images/avatar.png
+rm themes/hugo-cactus-theme/static/images/avatar@2x.png
+
 # Remove the old publications
 cd ..
 rm -rf public
