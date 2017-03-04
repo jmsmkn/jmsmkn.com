@@ -8,16 +8,13 @@ MSG=$(git log -1 --oneline)
 git config --global user.email "jamesmeakin@gmail.com"
 git config --global user.name "James Meakin"
 
-git clone "https://$GH_REPO"
-cd ${REPO}/themes
-git clone https://github.com/digitalcraftsman/hugo-cactus-theme.git
+git clone --recursive "https://$GH_REPO"
 
 # Remove the avatars
 rm themes/hugo-cactus-theme/static/images/avatar.png
 rm themes/hugo-cactus-theme/static/images/avatar@2x.png
 
 # Remove the old publications
-cd ..
 rm -rf public
 
 git clone "https://$PUB_REPO" public
