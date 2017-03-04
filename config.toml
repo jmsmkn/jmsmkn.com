@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "James Meakin"
-baseurl = "http://meakin.nl/"
+baseurl = "https://meakin.nl/"
 theme = "hugo-cactus-theme"
 disqusShortname = "meakin-nl"
 
