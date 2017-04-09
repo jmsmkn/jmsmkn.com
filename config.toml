@@ -3,6 +3,7 @@ title = "James Meakin"
 baseurl = "https://meakin.nl/"
 theme = "hugo-cactus-theme"
 disqusShortname = "meakin-nl"
+googleAnalytics = "UA-97109041-1"
 
 [Params]
   name = "James Meakin"
