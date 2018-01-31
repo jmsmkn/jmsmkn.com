@@ -2,8 +2,8 @@
 echo -e "Deploying updates to GitHub..."
 # setup constants
 REPO="meakin.nl"
-GH_REPO="github.com/jmeakin/${REPO}.git"
-PUB_REPO="github.com/jmeakin/jmeakin.github.io.git" 
+GH_REPO="github.com/jmsmkn/${REPO}.git"
+PUB_REPO="github.com/jmsmkn/jmsmkn.github.io.git" 
 MSG=$(git log -1 --oneline)
 git config --global user.email "jamesmeakin@gmail.com"
 git config --global user.name "James Meakin"
