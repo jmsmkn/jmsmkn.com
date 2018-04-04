@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "James Meakin"
-baseurl = "https://meakin.nl/"
+baseurl = "https://www.jmsmkn.com/"
 theme = "hugo-cactus-theme"
 disqusShortname = "meakin-nl"
 googleAnalytics = "UA-97109041-1"
@@ -9,11 +9,11 @@ googleAnalytics = "UA-97109041-1"
   name = "James Meakin"
   description = "description goes here"
   bio = "Research Software Engineer"
-  twitter = "DrJamesMeakin"
+  twitter = "jmsmkn"
   enableRSS = true
 
   # Sharing options and author information in posts
-	aboutAuthor = "Research Software Engineer at Radboud University Medical Center."
+	aboutAuthor = "Tech Lead, Research Software Engineering at Radboud UMC."
 	tweet = ""
 	share = ""
 
@@ -23,3 +23,4 @@ googleAnalytics = "UA-97109041-1"
   twitter = "https://twitter.com/jmsmkn"
   github = "https://github.com/jmsmkn"
   linkedin = "https://linkedin.com/in/jamesameakin"
+
