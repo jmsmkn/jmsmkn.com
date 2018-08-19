@@ -1,0 +1,6 @@
+{{ $jquery := resources.Get "node_modules/jquery/dist/jquery.js" }}
+{{ $bootstrap := resources.Get "node_modules/bootstrap/dist/js/bootstrap.bundle.js" }}
+{{ $fontawesome := resources.Get "node_modules/@fortawesome/fontawesome-free/js/all.js" }}
+
+{{ $js := slice $jquery $bootstrap $fontawesome | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>

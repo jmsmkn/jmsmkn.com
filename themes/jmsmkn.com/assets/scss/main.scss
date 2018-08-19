@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Noto Sans");
 
-* {
-    font-family: "Noto Sans", sans-serif;
-}
+$font-family-base: "Noto Sans", sans-serif;
 
-img.avatar {
-    border-radius: 20%;
-    height: 1.5rem;
-}
+@import "../node_modules/bootstrap/scss/bootstrap";
