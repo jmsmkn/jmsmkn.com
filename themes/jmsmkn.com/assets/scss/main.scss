@@ -2,4 +2,20 @@
 
 $font-family-base: "Noto Sans", sans-serif;
 
+$dark: rgb(44, 61, 87);
+$white: rgb(236, 237, 239);
+$primary: rgb(212, 85, 61);
+$secondary: rgb(164, 155, 148);
+$black: rgb(13, 12, 10);
+$grey-dark: $dark;
+$light: $white;
+
+body {
+  color: $black!important;
+}
+
+img.avatar {
+  border-radius: 50%;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
