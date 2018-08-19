@@ -1,6 +1,11 @@
-{{ $jquery := resources.Get "node_modules/jquery/dist/jquery.js" }}
-{{ $bootstrap := resources.Get "node_modules/bootstrap/dist/js/bootstrap.bundle.js" }}
-{{ $fontawesome := resources.Get "node_modules/@fortawesome/fontawesome-free/js/all.js" }}
+<p>
+    {{ range $key, $val := .Site.Social }}
+    <a class="symbol" href="{{ $val }}">
+        <i class="fab fa-{{ $key }}"></i>
+    </a>
+    {{ end }}
+</p>
 
-{{ $js := slice $jquery $bootstrap $fontawesome | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+<p>
+    © Copyright {{now.Format "2006"}} {{ .Site.Params.name }}
+</p>
