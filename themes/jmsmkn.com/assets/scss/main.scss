@@ -16,6 +16,8 @@ body {
 
 img.avatar {
   border-radius: 50%;
+  border: 0.1rem solid $secondary;
+  height: 5rem;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
