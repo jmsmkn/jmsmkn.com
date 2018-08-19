@@ -1,7 +1,7 @@
 #!/bin/bash
 echo -e "Deploying updates to GitHub..."
 # setup constants
-REPO="meakin.nl"
+REPO="jmsmkn.com"
 GH_REPO="github.com/jmsmkn/${REPO}.git"
 PUB_REPO="github.com/jmsmkn/jmsmkn.github.io.git" 
 MSG=$(git log -1 --oneline)

@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "James Meakin"
 baseurl = "https://www.jmsmkn.com/"
 theme = "hugo-cactus-theme"
-disqusShortname = "meakin-nl"
+disqusShortname = "jmsmkn-com"
 googleAnalytics = "UA-97109041-1"
 
 [Params]
@@ -20,7 +20,7 @@ googleAnalytics = "UA-97109041-1"
   iconFont = "font-awesome"
 
 [social]
-  twitter = "https://twitter.com/jmsmkn"
   github = "https://github.com/jmsmkn"
-  linkedin = "https://linkedin.com/in/jamesameakin"
+  twitter = "https://twitter.com/jmsmkn"
+  linkedin = "https://linkedin.com/in/jmsmkn"
 
