@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "James Meakin"
 baseurl = "https://www.jmsmkn.com/"
-theme = "hugo-cactus-theme"
+theme = "jmsmkn.com"
 disqusShortname = "jmsmkn-com"
 googleAnalytics = "UA-97109041-1"
 
