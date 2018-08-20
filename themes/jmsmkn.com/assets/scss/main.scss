@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto Sans:400,700");
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 $dark: rgb(44, 61, 87);
 $white: rgb(236, 237, 239);
@@ -20,11 +20,13 @@ html, body {
 body {
   color: $black;
   background-color: $light;
-  font-family: "Noto Sans", sans-serif;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  overflow-y: scroll;
 }
 
-h1, h2 {
-  font-weight: 400;
+h1, h2, h3 {
+  font-weight: 200;
 }
 
 .row {
@@ -34,22 +36,40 @@ h1, h2 {
 }
 
 .sidebar {
-  flex: 30%;
+  flex: 20%;
   color: $white;
   background-color: $dark;
   padding: 10px;
   height: auto;
   min-height: 100%;
+  text-align:center;
+}
+
+.sidebar a {
+  color: $white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
 }
 
 .main {
-  flex: 70%;
-  padding: 10px;
+  flex: 80%;
+  padding: 10%;
 }
 
 .footer {
   text-align: center;
   padding: 10px;
+}
+
+.copyright {
+  font-weight: 200;
 }
 
 @media screen and (max-width: 700px) {
@@ -62,4 +82,6 @@ img.avatar {
   border-radius: 50%;
   border: 2px solid $primary;
   height: 5rem;
+  display:block;
+  margin:auto;
 }
