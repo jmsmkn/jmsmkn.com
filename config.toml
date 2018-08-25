@@ -7,7 +7,7 @@ googleAnalytics = "UA-97109041-1"
 
 [Params]
   name = "James Meakin"
-  description = "description goes here"
+  description = "Tech Lead, Research Software Engineering at Radboud UMC."
   bio = "Research Software Engineer"
   twitter = "jmsmkn"
   enableRSS = true
