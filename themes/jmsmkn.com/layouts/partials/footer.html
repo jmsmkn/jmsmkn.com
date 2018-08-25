@@ -1,12 +1,6 @@
 <footer>
 
-<p class="social">
-    {{ range $key, $val := .Site.Social }}
-    <a class="symbol" href="{{ $val }}">
-        <i class="fab fa-{{ $key }}"></i>
-    </a>
-    {{ end }}
-</p>
+
 
 <p class="copyright">
     © Copyright {{now.Format "2006"}} {{ .Site.Params.name }}
