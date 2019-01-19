@@ -21,6 +21,14 @@
         <a class="" href='{{ .Site.BaseURL }}about'>About</a>
         {{ end }}
     </h3>
+
+    <h3>
+        {{ if eq $url "contact/" }}
+        <a class="active" href='{{ .Site.BaseURL }}contact'>Contact</a>
+        {{ else }}
+        <a class="" href='{{ .Site.BaseURL }}contact'>Contact</a>
+        {{ end }}
+    </h3>
 </nav>
 
 <p class="social">
