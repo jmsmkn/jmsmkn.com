@@ -5,4 +5,4 @@ title = "Contact"
 
 +++
 
-Should you wish to get in touch, my email address is [hello@jmsmkn.com](mailto:hello@jmsmkn.com).
+Should you wish to get in touch, you can send an e-mail to `hello` at `jmsmkn` dot `com`
