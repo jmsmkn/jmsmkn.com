@@ -1,9 +1,0 @@
-{
-  "name": "jmsmkn.com",
-  "version": "1.0.0",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "5.2.0",
-    "jquery": "3.4.0",
-    "bootstrap": "4.3.1"
-  }
-}
