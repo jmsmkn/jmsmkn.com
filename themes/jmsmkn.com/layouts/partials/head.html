@@ -11,7 +11,7 @@
 
 {{ .Hugo.Generator }}
 
-{{ $css := resources.Get "scss/main.scss" | resources.ToCSS "css/bundle.css" | resources.Minify | resources.Fingerprint }}
+{{ $css := resources.Get "css/main.css" | resources.ToCSS "css/bundle.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}"
       integrity="{{ $css.Data.Integrity }}">
 
