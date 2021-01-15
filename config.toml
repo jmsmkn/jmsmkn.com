@@ -1,26 +1,3 @@
+baseURL = "https://jmsmkn.com/"
 languageCode = "en-us"
 title = "James Meakin"
-baseurl = "https://www.jmsmkn.com/"
-theme = "jmsmkn.com"
-disqusShortname = "jmsmkn-com"
-googleAnalytics = "UA-97109041-1"
-
-[Params]
-  name = "James Meakin"
-  description = "Tech Lead, Research Software Engineering at Radboud UMC."
-  bio = "Research Software Engineer"
-  twitter = "jmsmkn"
-  enableRSS = true
-
-  # Sharing options and author information in posts
-	aboutAuthor = "Tech Lead, Research Software Engineering at Radboud UMC."
-	tweet = ""
-	share = ""
-
-  iconFont = "font-awesome"
-
-[social]
-  github = "https://github.com/jmsmkn"
-  twitter = "https://twitter.com/jmsmkn"
-  linkedin = "https://linkedin.com/in/jmsmkn"
-
