@@ -1,3 +1,24 @@
 baseURL: https://jmsmkn.com/
 languageCode: en-gb
 title: James Meakin
+theme: PaperMod
+
+paginate: 5
+
+enableRobotsTXT: true
+
+params:
+        env: production
+        title: James Meakin
+        description: The Personal Website of James Meakin
+        author: James Meakin
+        DateFormat: January 2, 2006
+        defaultTheme: auto
+
+        homeInfoParams:
+                Title: Welcome to the personal website of Dr. James Meakin
+                Content: >
+                        I live in Rotterdam, the Netherlands, with my partner and our two cats.
+                        Currently, I work as a Research Software Engineer in Healthcare and enjoy backend web development and MLOps.
+                        You can find me on <a href="https://github.com/jmsmkn/">GitHub</a>, <a href="https://twitter.com/jmsmkn/">Twitter</a>, and <a href="https://linkedin.com/in/jmsmkn/">LinkedIn</a>.
+
