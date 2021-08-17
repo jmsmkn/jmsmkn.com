@@ -8,17 +8,57 @@ paginate: 5
 enableRobotsTXT: true
 
 params:
-        env: production
-        title: James Meakin
-        description: The Personal Website of James Meakin
-        author: James Meakin
-        DateFormat: January 2, 2006
-        defaultTheme: auto
+  env: production
+  title: James Meakin
+  description: The Personal Website of James Meakin
+  author: James Meakin
+  DateFormat: January 2, 2006
+  defaultTheme: auto
 
-        homeInfoParams:
-                Title: Welcome to the personal website of Dr. James Meakin
-                Content: >
-                        I live in Rotterdam, the Netherlands, with my partner and our two cats.
-                        Currently, I work as a Research Software Engineer in Healthcare and enjoy backend web development and MLOps.
-                        You can find me on <a href="https://github.com/jmsmkn/">GitHub</a>, <a href="https://twitter.com/jmsmkn/">Twitter</a>, and <a href="https://linkedin.com/in/jmsmkn/">LinkedIn</a>.
+  disableScrollToTop: true
 
+  profileMode:
+    enabled: true
+    title: James Meakin
+    subtitle: >
+      Welcome to the personal website of Dr. James Meakin.
+      Currently, I work as a Research Software Engineer in Healthcare and enjoy backend web development and MLOps.
+      I live in Rotterdam, the Netherlands, with my partner and our two cats.
+    imageUrl: img/avatar.png
+    imageTitle: Image of James Meakin
+    buttons:
+      - name: Posts
+        url: posts
+
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/jmsmkn
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/jmsmkn
+    - name: Twitter
+      url: https://twitter.com/jmsmkn
+
+menu:
+  main:
+    - name: Posts
+      url: posts
+      weight: 10
+    - name: Tags
+      url: tags
+      weight: 40
+    - name: Archive
+      url: archives
+      weight: 30
+    - name: Search
+      url: search
+      weight: 50
+
+taxonomies:
+    category: categories
+    tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
