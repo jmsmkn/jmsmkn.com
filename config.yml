@@ -35,8 +35,6 @@ params:
       url: https://github.com/jmsmkn
     - name: LinkedIn
       url: https://www.linkedin.com/in/jmsmkn
-    - name: Twitter
-      url: https://twitter.com/jmsmkn
 
 menu:
   main:
